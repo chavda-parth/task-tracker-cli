@@ -20,11 +20,15 @@ public class Task {
     }
 
     public Date getCreatedAt() {
-        return createdAt;
+        return this.createdAt;
     }
 
     public Date getUpdatedAt() {
-        return updatedAt;
+        return this.updatedAt;
+    }
+
+    public int getId() {
+        return this.id;
     }
 
     @Override
